@@ -1,0 +1,73 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+.slide {
+	width: 100vw;
+	height: 100vw;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	width: 500vw;
+	transform: rotate(90deg)translateY(-100vh);
+	transform-origin: top left;
+}
+
+.uno {
+	background: #0185D7;
+}
+
+.dos {
+	background: #000;
+	padding: 50px 70px;
+}
+
+#cuadrito {
+	width: 1170px;
+	height: 1700px;
+	background: #CCECFF;
+	float: left;
+	margin: 1em 2em;
+	box-shadow: 4px 4px #424242;
+}
+
+.tres {
+	background: #94d0ed;
+}
+
+.cuatro {
+	/*background: #c9e5f9;*/
+	background-image: url(blurr.jpg);
+	background-size: cover;
+}
+
+.cinco {
+	background: #447697;
+}
+
+.seis {
+	background: #E4B478;
+}
+
+.outer-wrapper {
+	width: 100vh;
+	height: 100vw;
+	transform: rotate(-90deg)translateX(-100vh);
+	transform-origin: top left;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: absolute;
+}
+
+p.text1{
+	text-shadow: 3px 3px #0185D7;
+	padding: 10px 70px;
+	overflow: hidden;
+	position: absolute;
+	font-size: 100px;
+	color: #fff;
+	font-family: "Lobster";
+}
