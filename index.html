@@ -1,0 +1,22 @@
+<html>
+		<link rel="stylesheet" type="text/css" href="new 1.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+<body>
+<font face= 'Quicksand', sans-serif>
+	<div id="caja">
+	
+		<form action="new 1.php" method="get">
+			<div id="p">Nombre: </div> <div id="p1"> <input type="text" name="nombre"> </div> <br>
+			<div id="p">Email: </div> <div id="p1"> <input type="text" name="email"> </div> <br>
+			<input type="submit" value="Enviar">
+		</form>
+		<div id="p"> Hola <?php isset($_GET["nombre"]) ? print $_GET["nombre"] : ""; ?><br> </div>
+		<div id="p"> Tu email es: <?php isset($_GET["email"]) ? print $_GET["email"] : ""; ?> </div>
+		
+	</div>
+</font>
+</body>
+</html>
